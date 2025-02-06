@@ -48,7 +48,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.tablaAlumno);
+            this.MaximizeBox = false;
             this.Name = "TablaAlumnos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TablaAlumnos";
             ((System.ComponentModel.ISupportInitialize)(this.tablaAlumno)).EndInit();
             this.ResumeLayout(false);

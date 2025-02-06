@@ -42,9 +42,9 @@ namespace ControlCesharp.vistas
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button1.BackColor = System.Drawing.Color.IndianRed;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(45, 81);
+            this.button1.Location = new System.Drawing.Point(54, 45);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(124, 121);
@@ -55,9 +55,9 @@ namespace ControlCesharp.vistas
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button2.BackColor = System.Drawing.Color.IndianRed;
             this.button2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(221, 81);
+            this.button2.Location = new System.Drawing.Point(230, 45);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(124, 121);
@@ -68,9 +68,9 @@ namespace ControlCesharp.vistas
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button3.BackColor = System.Drawing.Color.IndianRed;
             this.button3.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(407, 81);
+            this.button3.Location = new System.Drawing.Point(416, 45);
             this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(124, 121);
@@ -81,9 +81,9 @@ namespace ControlCesharp.vistas
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button4.BackColor = System.Drawing.Color.IndianRed;
             this.button4.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(585, 81);
+            this.button4.Location = new System.Drawing.Point(594, 45);
             this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(124, 121);
@@ -94,9 +94,9 @@ namespace ControlCesharp.vistas
             // 
             // button5
             // 
-            this.button5.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button5.BackColor = System.Drawing.Color.IndianRed;
             this.button5.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(91, 266);
+            this.button5.Location = new System.Drawing.Point(118, 188);
             this.button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(181, 69);
@@ -107,9 +107,9 @@ namespace ControlCesharp.vistas
             // 
             // button6
             // 
-            this.button6.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button6.BackColor = System.Drawing.Color.IndianRed;
             this.button6.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(477, 266);
+            this.button6.Location = new System.Drawing.Point(477, 188);
             this.button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(181, 69);
@@ -122,7 +122,7 @@ namespace ControlCesharp.vistas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(775, 370);
+            this.ClientSize = new System.Drawing.Size(775, 298);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);

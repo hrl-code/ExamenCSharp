@@ -123,6 +123,9 @@
     <EmbeddedResource Include="vistas\FormularioAlumnos.resx">
       <DependentUpon>FormularioAlumnos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="vistas\FormularioProfesores.resx">
+      <DependentUpon>FormularioProfesores.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="vistas\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>

@@ -43,7 +43,7 @@ namespace ControlCesharp
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(42, 83);
+            this.label1.Location = new System.Drawing.Point(67, 82);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(54, 16);
             this.label1.TabIndex = 0;
@@ -60,24 +60,25 @@ namespace ControlCesharp
             // 
             // campoUsuario
             // 
-            this.campoUsuario.Location = new System.Drawing.Point(197, 76);
+            this.campoUsuario.Location = new System.Drawing.Point(155, 79);
             this.campoUsuario.Name = "campoUsuario";
-            this.campoUsuario.Size = new System.Drawing.Size(100, 22);
+            this.campoUsuario.Size = new System.Drawing.Size(157, 22);
             this.campoUsuario.TabIndex = 2;
             // 
             // campoPass
             // 
-            this.campoPass.Location = new System.Drawing.Point(197, 126);
+            this.campoPass.Location = new System.Drawing.Point(155, 126);
             this.campoPass.Name = "campoPass";
-            this.campoPass.Size = new System.Drawing.Size(100, 22);
+            this.campoPass.Size = new System.Drawing.Size(157, 22);
             this.campoPass.TabIndex = 3;
             this.campoPass.UseSystemPasswordChar = true;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(86, 213);
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(99, 194);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(171, 29);
+            this.button1.Size = new System.Drawing.Size(171, 78);
             this.button1.TabIndex = 4;
             this.button1.Text = "Entrar";
             this.button1.UseVisualStyleBackColor = true;
@@ -95,7 +96,7 @@ namespace ControlCesharp
             this.Controls.Add(this.label1);
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "LOGIN";
+            this.Text = "Login";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -115,7 +116,9 @@ namespace ControlCesharp
             {
                 MessageBox.Show("Acceso correcto");
                 Principal p = new Principal();
-                p.ShowDialog();
+                p.Show();
+                this.Hide();
+
             }
             else
             {
