@@ -257,19 +257,7 @@ namespace ControlCesharp.vistas
                 if (bbdd.Conexion.RegistrarA(nom, a))
                 {
 
-                    DateTime fecha = DateTime.Now;
-                    string fechaTexto = fecha.ToString("dd/MM/yyyy HH:mm:ss");
-
-                    File.AppendAllText("Alumnos.txt", "NUEVO ALUMNO" + Environment.NewLine + "----------------------" + Environment.NewLine +
-                        $"Fecha: {fechaTexto}" + Environment.NewLine +
-                        "----------------------" + Environment.NewLine + Environment.NewLine +
-                        $"Nombre: {campoNombre.Text}" + Environment.NewLine +
-                        $"Apellidos: {campoApellidos.Text}" + Environment.NewLine +
-                        $"Edad: {campoEdad.Text}" + Environment.NewLine +
-                        $"Ciudad: {comboCiudad.Text}" + Environment.NewLine +
-                        $"Ciclo: {comboCiclo.Text}" + Environment.NewLine + Environment.NewLine +
-                        "----------------------" + Environment.NewLine + Environment.NewLine);
-
+                    File.AppendAllText("Alumnos.txt", a.ToString());
                     MessageBox.Show("Usuario registrado correctamente");
                     campoNombre.Text = "";
                     campoApellidos.Text = "";
