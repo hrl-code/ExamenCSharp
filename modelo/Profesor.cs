@@ -42,7 +42,7 @@ namespace ControlCesharp.modelo
                     $"DNI: {Dni}" + Environment.NewLine +
                     $"Ciclo: {Ciclo}" + Environment.NewLine +
                     $"Turno: {Turno}" + Environment.NewLine + Environment.NewLine +
-                    "----------------------" + Environment.NewLine + Environment.NewLine);
+                    "----------------------" + Environment.NewLine + Environment.NewLine;
         }
     }
 }

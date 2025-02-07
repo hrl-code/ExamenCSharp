@@ -40,7 +40,7 @@ namespace ControlCesharp.modelo
                         $"Edad: {Edad}" + Environment.NewLine +
                         $"Ciudad: {Ciudad}" + Environment.NewLine +
                         $"Ciclo: {Ciclo}" + Environment.NewLine + Environment.NewLine +
-                        "----------------------" + Environment.NewLine + Environment.NewLine);
+                        "----------------------" + Environment.NewLine + Environment.NewLine;
         }
     }
 }
