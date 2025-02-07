@@ -283,7 +283,6 @@ namespace ControlCesharp.vistas
 
                 if (bbdd.Conexion.RegistrarP(nom, p))
                 {
-X
                     File.AppendAllText("Profesores.txt", p.ToString());   
 
                     MessageBox.Show("Profesor registrado correctamente");
