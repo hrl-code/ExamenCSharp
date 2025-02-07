@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ControlCesharp.bbdd;
 
 namespace ControlCesharp.vistas
 {
@@ -15,6 +16,8 @@ namespace ControlCesharp.vistas
         public TablaProfesores()
         {
             InitializeComponent();
+            DataTable tabla = Conexion.getProfesores();
+            tablaProfe.DataSource = tabla;
         }
     }
 }

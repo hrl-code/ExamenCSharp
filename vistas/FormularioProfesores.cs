@@ -15,6 +15,14 @@ namespace ControlCesharp.vistas
         public FormularioProfesores()
         {
             InitializeComponent();
+            comboCiclo.SelectedIndex = 0;
+            comboTurno.SelectedIndex = 0;
+
+        }
+
+        private void botonRegistrar_Click(object sender, EventArgs e)
+        {
+            profreg();
         }
     }
 }

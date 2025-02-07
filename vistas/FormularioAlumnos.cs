@@ -15,6 +15,18 @@ namespace ControlCesharp.vistas
         public FormularioAlumnos()
         {
             InitializeComponent();
+            comboCiudad.SelectedIndex = 0;
+            comboCiclo.SelectedIndex = 0;
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            alureg();
         }
     }
 }

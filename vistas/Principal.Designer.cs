@@ -156,11 +156,17 @@ namespace ControlCesharp.vistas
             Alumnos = new FileInfo("Alumnos.txt");
             if (!Profesores.Exists)
             {
-                Profesores.Create();
+                using (StreamWriter sw = Profesores.CreateText())
+                {
+                    sw.WriteLine("---------------HISTORICO DE PROFESORES---------------");
+                }
             }
             if (!Alumnos.Exists)
             {
-                Alumnos.Create();
+                using (StreamWriter sw = Alumnos.CreateText())
+                {
+                    sw.WriteLine("---------------HISTORICO DE ALUMNOS---------------");
+                }
             }
         }
 

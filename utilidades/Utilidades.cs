@@ -114,5 +114,18 @@ namespace ControlCesharp.utilidades
         {
             return double.Parse(campo.Text);
         }
+
+        public static bool DniNoValido(TextBox campo)
+        {
+            if (EsVacio(campo)) return true;
+            string patronDni = @"^\d{8}[a-zA-Z]$";
+            return !Regex.IsMatch(campo.Text, patronDni);
+        }
+
+        public static void AlertaDniNoValido(TextBox campo)
+        {
+            MessageBox.Show($"El campo {campo.Tag} no es un DNI válido", "Error",
+                MessageBoxButtons.OK, MessageBoxIcon.Warning);
+        }
     }
 }
